@@ -10,7 +10,7 @@ This documents a design test and its feedback. The artwork was a **concept mocku
 |---|---|
 | Format | Instagram Feed 4:5 first; adapt Story only after Feed approval |
 | Subject | Supplied real photograph of a smiling bartender shaking a stainless shaker in an amber-lit bar |
-| Copy | `THE BOTANIST GIN` / `GUEST SHIFT` / `CYKAS` / `20 OCTOBER` / `8 PM 'TIL LATE` |
+| Copy | `THE BOTANIST GIN` / `GUEST SHIFT` / `CYKAS` / `20 OCTOBER` / `8 PM ’TIL LATE` |
 | Branding | Keep the official Botanist logo's original form and color; use temporary plain text if the asset is unavailable |
 | Accent | Playbook acid lime `#DCF16B` for event information, cream `#F2EEE5` for headline, deep teal `#153B3B` for the supporting band |
 | Guardrail | Photo-first realism: protect portrait, pose, clothing, shaker and photographic texture |
@@ -40,4 +40,3 @@ Use the original photograph as the production layer, do exact typography and log
 The visual below is a **schematic**, not the bartender's actual photograph and not an official brand asset. It deliberately avoids publishing a private person's face in this public repository.
 
 ![Workflow from brief through approval, localized repair, and production check](../examples/guest-shift-workflow.svg)
-

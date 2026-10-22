@@ -1,6 +1,6 @@
 <div align="center">
 
-[??](./README.zh.md) � **English**
+[中文](./README.zh.md) · **English**
 
 # Monocolor Editorial Print
 
@@ -68,7 +68,7 @@ The visual system was informed by a twelve-image research set. See [Visual Refer
 | **Palette** | Adaptive neutral white, cool gray, or pale beige + controlled two-ink by default; explicit one-ink requests stay one-ink |
 | **Modes** | Pure one-ink, chromatic + black, complementary duotone, or overprint duotone |
 | **Image** | Halftone, risograph grain, cyanotype exposure, or photocopy breakup |
-| **Space** | 25%-55% visible empty paper on an asymmetric editorial grid |
+| **Space** | 25%–55% visible empty paper on an asymmetric editorial grid |
 | **Type** | Content-responsive literary serif, cultural grotesk, condensed civic, programmatic, rotated, handwritten, or word-as-object roles |
 | **Output** | Generated raster image, exact production prompt, and a short recipe |
 
@@ -86,11 +86,11 @@ All of these formats can use a single ink to reduce production costs while retai
 ## How it works
 
 ```text
-1  Read the input         identify subject, intent, words, and image role
-2  Choose the layout      image, specimen, declaration, object field, overprint, journal, or cover
-3  Assign the plates      default to two assigned roles; switch to one plate when explicitly requested
-4  Compose the page       preserve 25%-55% silence and add one deliberate disruption
-5  Generate and inspect   check ink count, identity, hierarchy, texture, and originality
+1  Read the input       →  identify subject, intent, words, and image role
+2  Choose the layout    →  image, specimen, declaration, object field, overprint, journal, or cover
+3  Assign the plates    →  default to two assigned roles; switch to one plate when explicitly requested
+4  Compose the page     →  preserve 25%–55% silence and add one deliberate disruption
+5  Generate and inspect →  check ink count, identity, hierarchy, texture, and originality
 ```
 
 ## Ink system
@@ -122,16 +122,16 @@ All of these formats can use a single ink to reduce production costs while retai
 | ![Cyan and Brick Red](./swatches/cyan-brick-red.svg) | Cyan + Brick Red | `#159DDA` + `#B64032` |
 | ![Tangerine and Slate Blue](./swatches/tangerine-slate-blue.svg) | Tangerine + Slate Blue | `#E46C2D` + `#4773A5` |
 
-In two-ink work, the dominant plate normally carries 70%-85% of the printed area. The accent plate carries 15%-30% and must have a specific job such as dates, annotations, selected objects, or overprint intersections. The substrate is not a third color, and the darker color created where two plates overlap is not a third ink.
+In two-ink work, the dominant plate normally carries 70%–85% of the printed area. The accent plate carries 15%–30% and must have a specific job such as dates, annotations, selected objects, or overprint intersections. The substrate is not a third color, and the darker color created where two plates overlap is not a third ink.
 
 **Substrate is adaptive, not nostalgic by default:** Neutral White `#FAFAF7` supports crisp cultural, social, event, and image-led work; Cool Gray `#E9E9E5` supports architecture, technology, charcoal-led systems, and restrained branding; Pale Beige `#F5F1E8` supports tactile, travel, food, intimate, archival, or explicitly nostalgic subjects. Limited inks and halftone do not automatically imply vintage styling.
 
 ## Visual rules
 
-1. **No more than two printing inks.** Controlled two-ink is the default: 70%-85% dominant plate and 15%-30% accent plate, each with a distinct role. Explicit one-ink requests use one plate.
+1. **No more than two printing inks.** Controlled two-ink is the default: 70%–85% dominant plate and 15%–30% accent plate, each with a distinct role. Explicit one-ink requests use one plate.
 2. **Paper stays visible.** The result is a printed page, not a digitally tinted monochrome wash.
 3. **Mechanical reproduction leads.** Photographs become dots, grain, clipped highlights, ink pooling, and mild registration drift between plates.
-4. **Silence has structure.** Empty paper occupies 25%-55% of the canvas and controls pacing.
+4. **Silence has structure.** Empty paper occupies 25%–55% of the canvas and controls pacing.
 5. **Type has tension and range.** Choose one content-responsive display skeleton and one utility voice; use handwriting only as a short optional interjection. A series may change display categories instead of repeating one house treatment.
 6. **Identity stays intact.** Supplied people, objects, and scenes remain recognizable.
 7. **References are grammar, not templates.** At least four structural variables change from every supplied reference.
@@ -162,7 +162,7 @@ Restart Claude Code after installation. Other agent environments can load [`SKIL
 
 ```text
 Use mono-color to make a vertical poster about a midnight convenience store.
-The exact headline is "still open".
+The exact headline is “still open”.
 ```
 
 ```text
@@ -172,7 +172,7 @@ Keep the person's identity and expression.
 
 ```text
 Create a botanical-green risograph field note about ferns.
-The title is "field note 07".
+The title is “field note 07”.
 ```
 
 ```text
@@ -187,7 +187,7 @@ Keep one open zone for the title and factual microcopy.
 
 ```text
 Make a Signal Red one-ink party poster for a rooftop gathering.
-Use "after sunset" as the headline and keep the date small.
+Use “after sunset” as the headline and keep the date small.
 ```
 
 ```text
@@ -197,7 +197,7 @@ Use the red plate only for the date, location, and one geometric interruption.
 
 ```text
 Create a cobalt city-walk poster from this street photograph.
-Turn the buildings into coarse halftones and title it "north by foot".
+Turn the buildings into coarse halftones and title it “north by foot”.
 ```
 
 ```text
@@ -207,7 +207,7 @@ Use one oversized Chinese headline and leave at least one third of the paper emp
 
 ```text
 Turn this host portrait into an Aubergine one-ink podcast cover.
-Keep the face recognizable and use "the quiet hour" as the episode title.
+Keep the face recognizable and use “the quiet hour” as the episode title.
 ```
 
 ```text
@@ -221,7 +221,7 @@ Keep the same grid across the set, but vary each crop and handwritten annotation
 ```
 
 ```text
-Design a Mint Green + Charcoal poetry title page for the line "we kept the window open".
+Design a Mint Green + Charcoal poetry title page for the line “we kept the window open”.
 Use no photograph, generous paper space, and one small archival-style note.
 ```
 
@@ -241,7 +241,7 @@ Before prompt compilation, the skill resolves every request into a fixed recipe 
 
 The `design-system/` catalogs make the visual grammar reusable and inspectable. They separate color tokens, typography roles, composition geometry, carrier-specific signals, visual rhythm, and controlled print imperfections from the prose workflow. Catalog IDs are the shared contract between reference boards, recipes, and validation.
 
-`design-system/rhythm.json` defines relaxation as uneven energy rather than uniformly reduced intensity. Each page selects one audacious focal event-oversized type, an extreme crop, one giant detail, a concentrated overprint, or an abnormal scale relationship-then releases the rest through paper, pale screening, and sparse functional type. Without a supplied photograph, people become 2-4 identifying anchors and partial crops instead of complete stock figures or a safe headline-left/photo-right split. Empty paper and unresolved edges now respond to the focal event instead of fixed quotas.
+`design-system/rhythm.json` defines relaxation as uneven energy rather than uniformly reduced intensity. Each page selects one audacious focal event—oversized type, an extreme crop, one giant detail, a concentrated overprint, or an abnormal scale relationship—then releases the rest through paper, pale screening, and sparse functional type. Without a supplied photograph, people become 2-4 identifying anchors and partial crops instead of complete stock figures or a safe headline-left/photo-right split. Empty paper and unresolved edges now respond to the focal event instead of fixed quotas.
 
 Controlled chance stays in the reproduction layer: contemporary work selects 0-2 restrained effects, while tactile, vintage, or archival-aging work selects 2-3 bounded effects such as uneven ink density, dry-edge breakup, halftone drift, registration drift, or one broken gesture. The stable recipe seed preserves the same marks across retries without moving the composition or reducing text readability.
 
@@ -284,18 +284,18 @@ GitHub Actions runs the same contract on every pull request and push to `main`.
 
 ```text
 mono-color-skill/
-��� .github/workflows/ # Continuous validation
-��� design-system/    # Machine-readable color, composition, rhythm, and print patterns
-��� examples/         # Original generated examples shown in the READMEs
-��� scripts/          # Evaluation and design-system validators
-��� swatches/         # One-ink and two-ink palette previews
-��� SKILL.md          # Trigger rules, visual system, workflow, and quality gate
-��� README.md         # English documentation
-��� README.zh.md      # ????
-��� CHANGELOG.md      # Release history
-��� evals/
-		��� evals.json    # Representative prompts and deterministic assertions
-		��� schema.json   # Evaluation contract schema
+├── .github/workflows/ # Continuous validation
+├── design-system/    # Machine-readable color, composition, rhythm, and print patterns
+├── examples/         # Original generated examples shown in the READMEs
+├── scripts/          # Evaluation and design-system validators
+├── swatches/         # One-ink and two-ink palette previews
+├── SKILL.md          # Trigger rules, visual system, workflow, and quality gate
+├── README.md         # English documentation
+├── README.zh.md      # 中文说明
+├── CHANGELOG.md      # Release history
+└── evals/
+		├── evals.json    # Representative prompts and deterministic assertions
+		└── schema.json   # Evaluation contract schema
 ```
 
 ## Originality
@@ -308,9 +308,8 @@ When a user supplies a photograph, the subject is preserved as content while the
 
 The source code, skill instructions, and scripts are available under the [MIT License](./LICENSE).
 
-Original examples by Yan Liu in [`examples/`](./examples) are c 2026 Yan Liu and are not covered by the MIT License. The twelve third-party research references remain the property of their respective creators and rights holders. See the [Visual Asset License](./ASSET-LICENSE.md) and [Visual References and Attribution](./REFERENCES.md).
+Original examples by Yan Liu in [`examples/`](./examples) are © 2026 Yan Liu and are not covered by the MIT License. The twelve third-party research references remain the property of their respective creators and rights holders. See the [Visual Asset License](./ASSET-LICENSE.md) and [Visual References and Attribution](./REFERENCES.md).
 
 ---
 
-Created by [Dreameryanyan](https://www.linkedin.com/in/yanliudesign/) � [LinkedIn](https://www.linkedin.com/in/yanliudesign/) � [X](https://x.com/yanliudreamer)
-
+Created by [Dreameryanyan](https://www.linkedin.com/in/yanliudesign/) · [LinkedIn](https://www.linkedin.com/in/yanliudesign/) · [X](https://x.com/yanliudreamer)

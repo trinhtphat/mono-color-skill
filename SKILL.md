@@ -1,6 +1,6 @@
 ---
 name: mono-color
-description: Generate original one-ink or controlled two-ink editorial images from any theme, sentence, article idea, object, or reference photo. Always use this skill when the user asks for ??????????????????/???????risograph????????????????zine poster, monochrome editorial poster, duotone print, or asks to use the mono-color style. It uses an adaptive white, gray, or pale-beige substrate, no more than two printing inks, active negative space, terse human language, and strong serif/grotesk/mono typography without making retro styling the default or copying a source composition, wording, logo, or artwork. Produce both the final generation prompt and the generated raster image unless the user explicitly asks for prompt only.
+description: Generate original one-ink or controlled two-ink editorial images from any theme, sentence, article idea, object, or reference photo. Always use this skill when the user asks for 单色海报、双色印刷、单色调视觉、蓝色/绿色孔版印刷、risograph、网点照片、复古或当代编辑排版、zine poster, monochrome editorial poster, duotone print, or asks to use the mono-color style. It uses an adaptive white, gray, or pale-beige substrate, no more than two printing inks, active negative space, terse human language, and strong serif/grotesk/mono typography without making retro styling the default or copying a source composition, wording, logo, or artwork. Produce both the final generation prompt and the generated raster image unless the user explicitly asks for prompt only.
 ---
 
 # Monocolor Editorial Print
@@ -304,7 +304,7 @@ Write the final prompt in five compact paragraphs, in this order:
 4. **Typography and words:** hierarchy, type voices, exact short display text, and the explicit overlap, crossing, split, or tight alignment between headline and dominant object; include a ruled data strip only when needed.
 5. **Material and avoids:** dots, fibers, bleed, misregistration, plus the hard negative constraints and any topic-specific cliches to exclude.
 
-Describe only visible outcomes. Do not mention reference artists, studios, sample posters, or "in the style of."
+Describe only visible outcomes. Do not mention reference artists, studios, sample posters, or “in the style of.”
 
 ## Originality Firewall
 
@@ -360,17 +360,17 @@ In the default printed-editorial branch, exclude:
 ## Output Format
 
 ````markdown
-**???**
+**生成图**
 
 ![Monocolor editorial print](absolute-image-path-or-rendered-image)
 
-**?? Prompt**
+**最终 Prompt**
 
 ```text
 [prompt used for generation]
 ```
 
-**????**
+**本次配方**
 
 - Mode: [pure one-ink / chromatic + black / complementary duotone / overprint duotone]
 - Ink: [exact one- or two-ink palette and hex values]
@@ -406,12 +406,11 @@ Use the print checks below for the default branch. For an explicitly requested f
 
 ## Example Triggers
 
-- "? mono-color ?????????????"
-- "??????????????????"
-- "?????????????? poster?"
-- "????????????????????"
-- "Make this portrait into a one-ink editorial zine cover."
-- "???????????????????"
-- "???????????????????????"
-- "??????????????????"
-
+- “用 mono-color 做一张关于夏天散步的海报。”
+- “把这张咖啡照片变成蓝色网点编辑封面。”
+- “做一个绿色植物主题的孔版印刷 poster。”
+- “沿用之前那套单色、留白、复古印刷的视觉。”
+- “Make this portrait into a one-ink editorial zine cover.”
+- “用蓝橙双色叠印做一张城市骑行活动视觉。”
+- “把这个产品做成重复物件构图的双色孔版印刷封面。”
+- “用绿色照片和黑色正文做一页观察日志。”

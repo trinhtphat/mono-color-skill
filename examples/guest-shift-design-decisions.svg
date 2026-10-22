@@ -16,7 +16,7 @@
     <path d="M173 125 a34 34 0 1 0 68 0 a34 34 0 1 0 -68 0 M160 171 Q204 150 250 179 L269 295 H148Z" fill="#132632" opacity=".75"/>
     <text x="23" y="63" fill="#f2eee5" font-size="10" letter-spacing="3" font-family="Arial,sans-serif">BRAND TEXT PLACEHOLDER</text>
     <text x="21" y="224" fill="#f2eee5" font-family="Georgia,serif" font-size="40">GUEST</text><text x="21" y="268" fill="#f2eee5" font-family="Georgia,serif" font-size="40">SHIFT</text>
-    <rect x="0" y="316" width="300" height="59" fill="#352136" opacity=".9"/><text x="20" y="349" fill="#f2eee5" font-family="Arial,sans-serif" font-size="15">CYKAS  �  20 OCT  �  8 PM</text>
+    <rect x="0" y="316" width="300" height="59" fill="#352136" opacity=".9"/><text x="20" y="349" fill="#f2eee5" font-family="Arial,sans-serif" font-size="15">CYKAS  ·  20 OCT  ·  8 PM</text>
   </g>
   <g transform="translate(434 110)">
     <rect width="300" height="375" rx="6" fill="url(#bar)"/>
@@ -26,7 +26,7 @@
     <text x="16" y="181" fill="#f2eee5" font-family="Arial,sans-serif" font-weight="900" font-stretch="condensed" font-size="50">GUEST</text><text x="16" y="233" fill="#f2eee5" font-family="Arial,sans-serif" font-weight="900" font-size="50">SHIFT</text>
     <path d="M18 250 L139 240" stroke="#dcf16b" stroke-width="9"/>
     <text x="20" y="289" fill="#dcf16b" font-family="Arial,sans-serif" font-size="25" font-weight="700">CYKAS</text>
-    <rect x="0" y="316" width="300" height="59" fill="#153b3b" opacity=".86"/><text x="20" y="349" fill="#dcf16b" font-family="Arial,sans-serif" font-size="15">20 OCT  �  8 PM 'TIL LATE</text>
+    <rect x="0" y="316" width="300" height="59" fill="#153b3b" opacity=".86"/><text x="20" y="349" fill="#dcf16b" font-family="Arial,sans-serif" font-size="15">20 OCT  ·  8 PM ’TIL LATE</text>
   </g>
   <g transform="translate(814 110)">
     <rect width="300" height="375" rx="6" fill="url(#bar)"/>
@@ -36,8 +36,7 @@
     <text x="16" y="181" fill="#f2eee5" font-family="Arial,sans-serif" font-weight="900" font-size="50">GUEST</text><text x="16" y="233" fill="#f2eee5" font-family="Arial,sans-serif" font-weight="900" font-size="50">SHIFT</text>
     <rect x="18" y="246" width="122" height="8" fill="#dcf16b"/>
     <text x="20" y="289" fill="#dcf16b" font-family="Arial,sans-serif" font-size="25" font-weight="700">CYKAS</text>
-    <rect x="0" y="316" width="300" height="59" fill="#153b3b" opacity=".86"/><text x="20" y="349" fill="#dcf16b" font-family="Arial,sans-serif" font-size="15">20 OCT  �  8 PM 'TIL LATE</text>
+    <rect x="0" y="316" width="300" height="59" fill="#153b3b" opacity=".86"/><text x="20" y="349" fill="#dcf16b" font-family="Arial,sans-serif" font-size="15">20 OCT  ·  8 PM ’TIL LATE</text>
   </g>
   <g font-family="Arial,sans-serif" fill="#153b3b" font-size="15"><text x="64" y="522">Blurred background + quieter title</text><text x="444" y="522">Bold type + slanted manual mark</text><text x="824" y="522">Soft background + straight lime rule</text></g>
 </svg>
-
