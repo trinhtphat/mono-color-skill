@@ -1,6 +1,6 @@
 ---
 name: mono-color
-description: Generate original one-ink or controlled two-ink editorial images from any theme, sentence, article idea, object, or reference photo. Always use this skill when the user asks for 单色海报、双色印刷、单色调视觉、蓝色/绿色孔版印刷、risograph、网点照片、复古或当代编辑排版、zine poster, monochrome editorial poster, duotone print, or asks to use the mono-color style. It uses an adaptive white, gray, or pale-beige substrate, no more than two printing inks, active negative space, terse human language, and strong serif/grotesk/mono typography without making retro styling the default or copying a source composition, wording, logo, or artwork. Produce both the final generation prompt and the generated raster image unless the user explicitly asks for prompt only.
+description: Generate original one-ink or controlled two-ink editorial images from any theme, sentence, article idea, object, or reference photo. Always use this skill when the user asks for ??????????????????/???????risograph????????????????zine poster, monochrome editorial poster, duotone print, or asks to use the mono-color style. It uses an adaptive white, gray, or pale-beige substrate, no more than two printing inks, active negative space, terse human language, and strong serif/grotesk/mono typography without making retro styling the default or copying a source composition, wording, logo, or artwork. Produce both the final generation prompt and the generated raster image unless the user explicitly asks for prompt only.
 ---
 
 # Monocolor Editorial Print
@@ -288,6 +288,14 @@ Choose the layout from the content, not at random. Walk this list from top to bo
 
 ## Prompt Compiler
 
+### Photo-first event poster exception
+
+When the user explicitly wants a real photograph preserved and only wants event typography on top, use the [photo-first event workflow](references/PHOTO_EVENT_WORKFLOW.md). Treat this as a user-directed exception to the print-only ink, substrate, halftone, empty-paper, and lens-blur defaults below. Do not force the source photograph into a duotone or change a person's identity. Count the requested accent colors in the typography and information overlays, not in the original photo.
+
+In this branch, first make an Instagram Feed 4:5 concept if the user specifies Feed as primary. Generate two meaningfully distinct options only when requested. After the user picks one, keep the approved layout and change only the element they identify. Distinguish a generated photographic mockup from a production asset using the untouched source photo. Never draw an invented brand logo; use the authorized original asset or visibly mark the text as temporary. Check every factual line and every requested straight line after editing.
+
+For the complete Guest Shift case, decisions, visual diagrams, failures, and production checklist, read [Guest Shift case study](references/GUEST_SHIFT_CASE_STUDY.md). These rules apply only to this explicit photo-first branch; all default print-mode rules continue to apply to ordinary mono-color requests.
+
 Write the final prompt in five compact paragraphs, in this order:
 
 1. **Canvas and ink:** ratio, exact neutral substrate and reason for choosing it, exact one- or two-ink palette, print mode, plate roles, and flat front-facing page.
@@ -296,7 +304,7 @@ Write the final prompt in five compact paragraphs, in this order:
 4. **Typography and words:** hierarchy, type voices, exact short display text, and the explicit overlap, crossing, split, or tight alignment between headline and dominant object; include a ruled data strip only when needed.
 5. **Material and avoids:** dots, fibers, bleed, misregistration, plus the hard negative constraints and any topic-specific cliches to exclude.
 
-Describe only visible outcomes. Do not mention reference artists, studios, sample posters, or “in the style of.”
+Describe only visible outcomes. Do not mention reference artists, studios, sample posters, or "in the style of."
 
 ## Originality Firewall
 
@@ -319,7 +327,7 @@ Never reproduce a reference's exact object arrangement, line breaks, labels, dat
 
 ## Hard Avoids
 
-Always exclude:
+In the default printed-editorial branch, exclude:
 
 - more than two printing inks, unassigned accent colors, gradients, rainbow accents, neon, or full-color photography;
 - clean vector-flat digital poster aesthetics;
@@ -352,17 +360,17 @@ Always exclude:
 ## Output Format
 
 ````markdown
-**生成图**
+**???**
 
 ![Monocolor editorial print](absolute-image-path-or-rendered-image)
 
-**最终 Prompt**
+**?? Prompt**
 
 ```text
 [prompt used for generation]
 ```
 
-**本次配方**
+**????**
 
 - Mode: [pure one-ink / chromatic + black / complementary duotone / overprint duotone]
 - Ink: [exact one- or two-ink palette and hex values]
@@ -373,6 +381,8 @@ Always exclude:
 ````
 
 ## Final Quality Gate
+
+Use the print checks below for the default branch. For an explicitly requested full-color photograph with event text, use the photo-first quality gate in [PHOTO_EVENT_WORKFLOW.md](references/PHOTO_EVENT_WORKFLOW.md) instead.
 
 - Is there one intentionally selected white, gray, or pale-beige substrate and no more than two printing inks?
 - Does the result read as contemporary editorial by default, with vintage or aged styling present only when requested?
@@ -396,11 +406,12 @@ Always exclude:
 
 ## Example Triggers
 
-- “用 mono-color 做一张关于夏天散步的海报。”
-- “把这张咖啡照片变成蓝色网点编辑封面。”
-- “做一个绿色植物主题的孔版印刷 poster。”
-- “沿用之前那套单色、留白、复古印刷的视觉。”
-- “Make this portrait into a one-ink editorial zine cover.”
-- “用蓝橙双色叠印做一张城市骑行活动视觉。”
-- “把这个产品做成重复物件构图的双色孔版印刷封面。”
-- “用绿色照片和黑色正文做一页观察日志。”
+- "? mono-color ?????????????"
+- "??????????????????"
+- "?????????????? poster?"
+- "????????????????????"
+- "Make this portrait into a one-ink editorial zine cover."
+- "???????????????????"
+- "???????????????????????"
+- "??????????????????"
+

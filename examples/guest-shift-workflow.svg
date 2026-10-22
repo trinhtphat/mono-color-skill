@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+  <title id="title">Photo-first event poster workflow</title>
+  <desc id="desc">Five stages: lock source and facts, compare Feed options, approve direction, repair one region, and verify original photo and official logo for production.</desc>
+  <rect width="1200" height="370" fill="#f2eee5"/>
+  <text x="40" y="53" fill="#153b3b" font-family="Arial,sans-serif" font-size="28" font-weight="700">FROM MOCKUP TO PRODUCTION</text>
+  <g font-family="Arial,sans-serif" font-size="16" fill="#f2eee5">
+    <rect x="35" y="101" width="204" height="178" rx="10" fill="#153b3b"/><text x="55" y="139" font-size="24" font-weight="700">01 / LOCK</text><text x="55" y="177">Original photo</text><text x="55" y="202">Exact event copy</text><text x="55" y="227">Brand asset status</text>
+    <rect x="267" y="101" width="204" height="178" rx="10" fill="#352136"/><text x="287" y="139" font-size="24" font-weight="700">02 / EXPLORE</text><text x="287" y="177">Two Feed directions</text><text x="287" y="202">Soft vs bold</text><text x="287" y="227">4:5 visual previews</text>
+    <rect x="499" y="101" width="204" height="178" rx="10" fill="#153b3b"/><text x="519" y="139" font-size="24" font-weight="700">03 / APPROVE</text><text x="519" y="177">Choose direction</text><text x="519" y="202">Mix requested traits</text><text x="519" y="227">Freeze other layers</text>
+    <rect x="731" y="101" width="204" height="178" rx="10" fill="#352136"/><text x="751" y="139" font-size="24" font-weight="700">04 / REPAIR</text><text x="751" y="177">Locate feedback</text><text x="751" y="202">Edit one element</text><text x="751" y="227">Level the lime rule</text>
+    <rect x="963" y="101" width="204" height="178" rx="10" fill="#153b3b"/><text x="983" y="139" font-size="24" font-weight="700">05 / VERIFY</text><text x="983" y="177">Untouched photo</text><text x="983" y="202">Official logo</text><text x="983" y="227">1080 x 1350 export</text>
+  </g>
+  <g fill="#dcf16b"><path d="M244 188 l18 -10 v20z"/><path d="M476 188 l18 -10 v20z"/><path d="M708 188 l18 -10 v20z"/><path d="M940 188 l18 -10 v20z"/></g>
+  <text x="38" y="331" fill="#153b3b" font-family="Arial,sans-serif" font-size="16">Concept images may change faces or lettering. Verify identity and text with editable layers before publishing.</text>
+</svg>
+

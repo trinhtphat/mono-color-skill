@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 ## Unreleased
 
+### Added
+
+- Added an explicit photo-first event poster branch for real photographs with editable typography and brand-safe asset placement, without changing the default print recipe.
+- Documented the Botanist Guest Shift iteration: two Feed options, premature Story generation, a blended soft/acid-lime direction, coordinate-based retouch feedback, and the correction from angled brushstroke to level rule.
+- Added two schematic SVG visual guides that do not disclose the source bartender portrait.
+
 ### Changed
 
 - Replaced the fixed warm-ivory default with adaptive Neutral White, Cool Gray, or Pale Beige substrates selected from image and ink contrast; contemporary editorial is now the default and vintage aging is opt-in.
@@ -29,7 +35,7 @@ All notable changes to this project are documented in this file.
 - Added an abstract-looseness path for supplied photos: requests for less realism now extract 2-4 identity anchors into deterministic masses, contours, rhythms, paper cutouts, and bounded print imperfections instead of applying a photographic duotone filter.
 - Added deterministic controlled chance: each recipe selects 2-3 bounded print imperfections with a stable seed while preserving composition and readability.
 - Added a machine-readable imperfection catalog for bounded print effects.
-- Added a generated 1800×3000 PNG reference board that presents all design-system catalogs as one visual index.
+- Added a generated 1800x3000 PNG reference board that presents all design-system catalogs as one visual index.
 - Added a machine-readable visual design system for colors, typography roles, composition geometry, and physical carriers, with cross-reference validation in CI.
 - Invented headlines, labels, and microcopy now default to English while exact user-supplied wording stays in its original language.
 - Summer, movement, travel, leisure, music, and night subjects now default to a romantic, free-spirited tone grounded in physical relationships and open space.
@@ -55,3 +61,4 @@ All notable changes to this project are documented in this file.
 ## 1.1.0
 
 - Added controlled two-ink modes, palette recipes, layout families, and expanded usage examples.
+
